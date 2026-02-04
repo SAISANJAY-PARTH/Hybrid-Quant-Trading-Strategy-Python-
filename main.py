@@ -4,8 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 tickers = [
-    "RELIANCE.NS","TCS.NS","INFY.NS","HDFCBANK.NS","ICICIBANK.NS",
-    "SBIN.NS","AXISBANK.NS","KOTAKBANK.NS","LT.NS","ITC.NS"
+    "RELIANCE.NS"
 ]
 
 end = pd.Timestamp.today()
@@ -89,3 +88,4 @@ plt.title("Your Strategy – Real Portfolio Performance")
 plt.legend()
 plt.grid()
 plt.show()
+
